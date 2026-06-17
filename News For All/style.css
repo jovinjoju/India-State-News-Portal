@@ -1,0 +1,18 @@
+body { background-color: #0f172a; color: #e2e8f0; font-family: 'Segoe UI', sans-serif; padding: 20px; }
+.container { max-width: 800px; margin: auto; text-align: center; }
+h1 { color: #38bdf8; margin-bottom: 20px; }
+
+select { padding: 12px; border-radius: 8px; border: 1px solid #38bdf8; background: #1e293b; color: white; font-size: 16px; }
+button { padding: 12px 20px; border-radius: 8px; border: none; background-color: #38bdf8; color: #0f172a; font-weight: bold; cursor: pointer; margin-left: 10px; }
+button:hover { background-color: #7dd3fc; }
+
+.news-card { 
+    background: #1e293b; border-radius: 12px; padding: 20px; margin: 20px 0; 
+    text-align: left; display: block; text-decoration: none; color: #f1f5f9;
+    border-left: 5px solid #38bdf8; transition: 0.3s;
+}
+.news-card:hover { background: #334155; transform: scale(1.01); }
+.news-card h3 { margin-top: 0; color: #38bdf8; }
+.pub-date { font-size: 0.8em; color: #94a3b8; margin-top: 10px; }
+
+footer { margin-top: 50px; padding: 20px; color: #64748b; border-top: 1px solid #1e293b; }
